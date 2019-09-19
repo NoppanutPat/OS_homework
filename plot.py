@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-dt = pd.read_csv("time.csv")
+dt = pd.read_csv("test_result.csv")
 
 dtime = dt["TIME"]
 dthread = dt["NTHREAD"]
